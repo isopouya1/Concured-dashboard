@@ -1,0 +1,16 @@
+{
+  "name": "concured",
+  "version": "1.0.0",
+  "description": "advance final class project for class 13 guys",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "npx @tailwindcss/cli -i ./src/tailwind.css -o ./dist/style.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.8",
+    "tailwindcss": "^4.1.8"
+  }
+}
