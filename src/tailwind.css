@@ -1,1 +1,27 @@
 @import "tailwindcss";
+
+
+@theme {
+    --font-roboto : "Roboto", sans-serif;
+    --font-alatsi : "Alatsi", sans-serif;
+
+    --color-blue : #4CD7F6;
+    --color-purple : #7166F9;
+    --color-pink : #E17CFD;
+    --color-dark-main : #2B2F42;
+    --color-bg : #F6F6FB;
+    --color-dark-bg : #332D56;
+    --color-dark-card : #484848;
+
+}
+
+@utility {
+    padding-inline : 2rem ;
+
+    @variant lg{
+        padding-inline : 8rem ;
+    }
+    @variant 2xl{
+        padding-inline : 10rem ;
+    }
+}
